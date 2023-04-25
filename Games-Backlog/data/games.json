@@ -1,0 +1,44 @@
+{
+    "games": [
+        {
+            "title": "Red Dead ",
+            "platform": "PC"
+        },
+        {
+            "title": "Frotneit",
+            "platform": "PS5"
+        },
+        {
+            "title": "Overwatch 2",
+            "platform": "Nintendo Switch"
+        },
+        {
+            "title": "Resident Evil 6",
+            "platform": "PC"
+        },
+        {
+            "title": "Rainbow Six Seige",
+            "platform": "PS5"
+        },
+        {
+            "title": "Sea of Thieves",
+            "platform": "Nintendo Switch"
+        },
+        {
+            "title": "Valorant",
+            "platform": "Nintendo Switch"
+        },
+        {
+            "title": "Forza Horizon 5",
+            "platform": "PC"
+        },
+        {
+            "title": "SpiderMen",
+            "platform": "PS5"
+        },
+        {
+            "title": "Sea of Thieves",
+            "platform": "Nintendo Switch"
+        }
+    ]
+}

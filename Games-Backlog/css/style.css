@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(15, 15, 64);
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.card {
+  width: 40rem;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #0daee4, #393fbb);
+  animation-name: popup;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.card__heading {
+  font-size: 120%;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+/*# sourceMappingURL=style.css.map */
